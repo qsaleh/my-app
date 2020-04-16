@@ -2,5 +2,9 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 
 ReactDOM.render(
-<div><h1>Hello world!</h1><p>This is a paragraph</p></div>
+<ul>What should we eat for dinner?
+  <li>shawarma</li>
+  <li>chinese</li>
+  <li>bbq</li>
+</ul>
 , document.getElementById('root'))
