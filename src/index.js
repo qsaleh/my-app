@@ -1,10 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import MyInfo from './components/MyInfo'
 
-ReactDOM.render(
-<ul>What should we eat for dinner?
-  <li>shawarma</li>
-  <li>chinese</li>
-  <li>bbq</li>
-</ul>
-, document.getElementById('root'))
+
+ReactDOM.render(<MyInfo />, document.getElementById('root'))
